@@ -20,7 +20,7 @@ export default function Navbar() {
                 document.getElementById('menuList').style.display = "block";
                 document.getElementById('navbar').style.animation = "none";
                 setIcon("mdi:close");
-            }, 250);
+            }, 245);
             return;
         }
         document.getElementById('menu').checked = false;
