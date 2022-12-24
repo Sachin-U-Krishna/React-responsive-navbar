@@ -20,7 +20,7 @@ export default function Navbar() {
                 document.getElementById('menuList').style.display = "block";
                 document.getElementById('navbar').style.animation = "none";
                 setIcon("mdi:close");
-            }, 240);
+            }, 250);
             return;
         }
         document.getElementById('menu').checked = false;
@@ -69,7 +69,6 @@ export default function Navbar() {
                     <span className="hamburger">
                         <input type="checkbox" id="menu" />
                         <Icon icon={icon} width="46" onClick={()=>menuButton()}/>
-                            {/* <iconify-icon icon="icon-park:hamburger-button" width="46" onclick="menuButton()"></iconify-icon> */}
                     </span>
                 </nav>
             </div>

@@ -84,7 +84,7 @@ body {
 @media (max-width: 768px) {
     .hamburger {
         position: absolute;
-        top: 2vh;
+        top: 1.8vh;
         right: 1.5vw;
     }
 
@@ -114,18 +114,6 @@ body {
         padding-top: 1.2em;
         padding-bottom: 0.4em;
     }
-
-    /* #navbar ul>a:not(:last-child) {
-        display: block;
-        padding-top: 0.5em;
-        padding-bottom: 1em;
-    }
-
-    #navbar ul>a:last-child {
-        display: block;
-        padding-top: 0.5em;
-        padding-bottom: 1em;
-    } */
 }
 
 @keyframes menuDown {
