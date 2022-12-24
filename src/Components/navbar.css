@@ -84,7 +84,7 @@ body {
 @media (max-width: 768px) {
     .hamburger {
         position: absolute;
-        top: 1.8vh;
+        top: 1.5vh;
         right: 1.5vw;
     }
 
