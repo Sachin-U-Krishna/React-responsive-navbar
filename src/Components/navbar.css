@@ -82,6 +82,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    .hamburger {
+        position: absolute;
+        top: 1.8vh;
+        right: 1.5vw;
+    }
 
     #navbar {
         display: block;
@@ -97,12 +102,11 @@ body {
     #navbar {
         padding-top: .62em;
         padding-bottom: .62em;
-        display: flex;
     }
 
     #navbar #nav-title {
-        margin: auto;
-        padding: auto;
+        display: flex;
+        justify-content: center;
     }
 
     #navbar ul>a{
